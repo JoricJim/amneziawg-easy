@@ -42,3 +42,6 @@ ENV DEBUG=Server,WireGuard
 ENV WG_PATH=/etc/amnezia/amneziawg/
 RUN rm -f /usr/bin/wg-quick
 RUN ln -s /usr/bin/awg-quick /usr/bin/wg-quick
+
+EXPOSE 51621
+EXPOSE 51620
